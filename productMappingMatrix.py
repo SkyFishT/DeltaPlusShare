@@ -189,6 +189,6 @@ def productMappingMatrix(width,height,width_segments,height_segments,epsilon,del
     linpro_file.close()
 
 if __name__ == '__main__':
-    epsilon=[0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1.0]
+    epsilon=[x*0.1 for x in range(1,21)]
     for i in epsilon:
     	productMappingMatrix(5,5,5,5,i,1.5)
