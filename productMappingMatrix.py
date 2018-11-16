@@ -191,4 +191,4 @@ def productMappingMatrix(width,height,width_segments,height_segments,epsilon,del
 if __name__ == '__main__':
     epsilon=[x*0.1 for x in range(1,21)]
     for i in epsilon:
-    	productMappingMatrix(5,5,5,5,i,1.5)
+        productMappingMatrix(5,5,5,5,i,1.5)

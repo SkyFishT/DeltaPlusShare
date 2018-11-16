@@ -1,7 +1,7 @@
-import os,datetime
+import os,math,datetime
 def extractPosition():
     path = os.path.join(os.getcwd(), 'taxi_log_2008_by_id')
-    pointsfile = open(os.path.join(os.getcwd(), 'materials', 'cars.txt'), 'w')  # set of points
+    carsfile = open(os.path.join(os.getcwd(), 'materials', 'cars.txt'), 'w')  # set of points
     cars=[]
     for file in os.listdir(path):
         file_path = os.path.join(path,file)
@@ -19,8 +19,38 @@ def extractPosition():
             else:
                 line = rawfile.readline()
         rawfile.close()
-    pointsfile.write(str(cars))
-    pointsfile.close()
+    carsfile.write(str(cars))
+    carsfile.close()
 
+    #product points
+    o_x = 116.25
+    o_y = 39.8
+    map_width = 0.25
+    map_height = 0.25
+    area_width_segments = 5
+    area_height_segments = 5
+    area_width_split = 5
+    area_height_split = 5
+    area_width = map_width / area_width_segments
+    area_height = map_height / area_height_segments
+    split_width = area_width/area_width_split
+    split_height = area_height/area_height_split
+    points=[]
+    pointsfile = open(os.path.join(os.getcwd(), 'materials', 'points.txt'), 'w')  # set of points
+    for i in range(area_width_segments):
+        points.append([])
+        for j in range(area_height_segments):
+            points[i].append([])
+            x_array = []
+            y_array = []
+            for x in range(area_width_split):
+                x_array.append(o_x+i*area_width+split_width/2+x*split_width)
+            for y in range(area_width_split):
+                y_array.append(o_y+j*area_height+split_height/2+y*split_height)
+            for x in range(area_width_split):
+                for y in range(area_height_split):
+                    points[i][j].append([x_array[x],y_array[y]])
+    pointsfile.write(str(points))
+    pointsfile.close()
 if __name__ == '__main__':
     extractPosition()
