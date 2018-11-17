@@ -65,7 +65,7 @@ def product_sort_edges(points):
             return -1
         else:
             return 1
-    sort_edges_file = open(os.path.join(os.getcwd(),'datas', 'sort_edges.txt'), 'w')
+    sort_edges_file = open(os.path.join(os.getcwd(),'datas', 'linprog','sort_edges.txt'), 'w')
     sorted_edges = []
     num_of_points = len(points)  # number of points
     for i in range(num_of_points):
@@ -115,7 +115,7 @@ def productMappingMatrix(width,height,width_segments,height_segments,epsilon,del
             delta_spanner_edges[i['pointB'], i['pointA']] = 1
         for j in range(len(graph)):
             minpath(points_shortest_array, j, graph)
-    np.save(os.path.join(os.getcwd(), 'datas', 'delta_spanner.npy'), delta_spanner_edges)
+    np.save(os.path.join(os.getcwd(), 'datas', 'linprog','delta_spanner.npy'), delta_spanner_edges)
     #product mapping matrix
     numbers_of_various = num_of_points*num_of_points
     c = [0] * numbers_of_various
@@ -162,7 +162,7 @@ def productMappingMatrix(width,height,width_segments,height_segments,epsilon,del
             np_a_eq[i, j] = a_eq[i][j]
     res = linprog(c, np_a_ub, b_ub, np_a_eq, b_eq, bounds=tuple(r),method='interior-point',options={'maxiter':500})
     result = np.zeros((num_of_points, num_of_points))
-    linpro_file = open(os.path.join(os.getcwd(), 'datas', 'linprog' + str(epsilon) + '.txt'), 'w')
+    linpro_file = open(os.path.join(os.getcwd(), 'datas', 'linprog','linprog' + str(epsilon) + '.txt'), 'w')
     def fuzhi2result(result, result_index, linprog_result, lingpro_index):
         for i in range(num_of_points):
             result[result_index, i] = linprog_result[lingpro_index * num_of_points + i]
@@ -189,6 +189,6 @@ def productMappingMatrix(width,height,width_segments,height_segments,epsilon,del
     linpro_file.close()
 
 if __name__ == '__main__':
-    epsilon=[x*0.1 for x in range(1,21)]
+    epsilon=[x*0.1 for x in range(1,41)]
     for i in epsilon:
         productMappingMatrix(5,5,5,5,i,1.5)
