@@ -26,7 +26,7 @@ def getMAE(method):
                 for x in range(area_width_split):
                     for y in range(area_height_split):
                         AE += abs(cars_density[i][j][x][y] - confusing_cars[i][j][x][y])
-        cars_MAE_file.write('MAE_confusing_cars_density_epsilon'+str(e)+':'+str(AE/points_num)+'\n')
+        cars_MAE_file.write('MAE_confusing_cars_density_epsilon'+str(e)+':'+str(AE)+'\n')
     cars_MAE_file.close()
 
 if __name__=='__main__':

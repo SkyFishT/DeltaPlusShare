@@ -1,5 +1,5 @@
 import os,math,random,numpy as np
-def positionConfusing(method):
+def positionConfusing(confusing_function,method):
     o_x = 116.25
     o_y = 39.8
     map_width = 0.25
@@ -72,7 +72,7 @@ def positionConfusing(method):
                             mapping_position = mappingToBylinprog([x,y],matrix)
                             cars_density[i][j][x][y] -= 1
                             cars_density[i][j][mapping_position[0]][mapping_position[1]] +=1
-        confusing_cars_density_file = open(os.path.join(os.getcwd(), 'datas',method, 'confusing_cars_density_epsilon'+str(e)+'.txt'), 'w')
+        confusing_cars_density_file = open(os.path.join(os.getcwd(), 'datas','linprog', 'confusing_cars_density_epsilon'+str(e)+'.txt'), 'w')
         confusing_cars_density_file.write(str(cars_density))
         confusing_cars_density_file.close()
         cars_density_file.close()
