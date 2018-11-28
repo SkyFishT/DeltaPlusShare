@@ -35,6 +35,12 @@ def positionConfusingByLaplace(epsilon):
         dist = np.random.laplace(0,float(deltaF)/epsilon)
         angle = random.random() * math.pi * 2
         return [position[0]+dist * math.cos(angle),position[1]+dist * math.sin(angle)]
+    def mappingConfusingPositionByLaplace2(position,epsilon,deltaF):
+        b = float(deltaF)/epsilon
+        r = random.random()
+        dist = math.log(1 - r) * (-b)
+        angle = random.random() * math.pi * 2
+        return [position[0]+dist * math.cos(angle),position[1]+dist * math.sin(angle)]
     confusing_cars=[]
     cars_file = open(os.path.join(os.getcwd(), 'materials', 'cars.txt'), 'r')
     cars = eval(cars_file.read())
@@ -58,6 +64,6 @@ def positionConfusingByLaplace(epsilon):
 
 
 if __name__ == '__main__':
-    epsilon = [x * 0.1 for x in range(1, 41)]
+    epsilon = [x * 0.1 for x in range(30, 31)]
     for i in epsilon:
         positionConfusingByLaplace(i)

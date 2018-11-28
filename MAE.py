@@ -13,7 +13,7 @@ def getMAE(method):
     num_cars = len(cars)
     cars_file.close()
 
-    epsilon = [x * 0.1 for x in range(1, 41)]
+    epsilon = [x * 0.1 for x in range(30, 31)]
     cars_MAE_file = open(os.path.join(os.getcwd(), 'datas', 'cars_MAE_file_in_'+str(method)+'.txt'), 'w')
     points_num = 5*5*5*5
     for e in epsilon:

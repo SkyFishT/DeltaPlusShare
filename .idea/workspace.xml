@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cd69985-f395-4413-adb3-27bd401f64e2" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datas/linprog/delta_spanner.npy" afterPath="$PROJECT_DIR$/datas/linprog/delta_spanner.npy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MAE.py" afterPath="$PROJECT_DIR$/MAE.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datas/cars_MAE_file_in_laplace.txt" afterPath="$PROJECT_DIR$/datas/cars_MAE_file_in_laplace.txt" />
@@ -46,7 +47,48 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datas/laplace/confusing_cars_density_epsilon3.8.txt" afterPath="$PROJECT_DIR$/datas/laplace/confusing_cars_density_epsilon3.8.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datas/laplace/confusing_cars_density_epsilon3.9.txt" afterPath="$PROJECT_DIR$/datas/laplace/confusing_cars_density_epsilon3.9.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datas/laplace/confusing_cars_density_epsilon4.0.txt" afterPath="$PROJECT_DIR$/datas/laplace/confusing_cars_density_epsilon4.0.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datas/linprog/confusing_cars_density_epsilon0.3.txt" afterPath="$PROJECT_DIR$/datas/linprog/confusing_cars_density_epsilon0.3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datas/linprog/confusing_cars_density_epsilon0.4.txt" afterPath="$PROJECT_DIR$/datas/linprog/confusing_cars_density_epsilon0.4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datas/linprog/confusing_cars_density_epsilon0.5.txt" afterPath="$PROJECT_DIR$/datas/linprog/confusing_cars_density_epsilon0.5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datas/linprog/confusing_cars_density_epsilon0.6.txt" afterPath="$PROJECT_DIR$/datas/linprog/confusing_cars_density_epsilon0.6.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datas/linprog/confusing_cars_density_epsilon0.7.txt" afterPath="$PROJECT_DIR$/datas/linprog/confusing_cars_density_epsilon0.7.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datas/linprog/confusing_cars_density_epsilon0.8.txt" afterPath="$PROJECT_DIR$/datas/linprog/confusing_cars_density_epsilon0.8.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datas/linprog/confusing_cars_density_epsilon0.9.txt" afterPath="$PROJECT_DIR$/datas/linprog/confusing_cars_density_epsilon0.9.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datas/linprog/confusing_cars_density_epsilon1.0.txt" afterPath="$PROJECT_DIR$/datas/linprog/confusing_cars_density_epsilon1.0.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datas/linprog/confusing_cars_density_epsilon1.1.txt" afterPath="$PROJECT_DIR$/datas/linprog/confusing_cars_density_epsilon1.1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datas/linprog/confusing_cars_density_epsilon1.2.txt" afterPath="$PROJECT_DIR$/datas/linprog/confusing_cars_density_epsilon1.2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datas/linprog/confusing_cars_density_epsilon1.3.txt" afterPath="$PROJECT_DIR$/datas/linprog/confusing_cars_density_epsilon1.3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datas/linprog/confusing_cars_density_epsilon1.4.txt" afterPath="$PROJECT_DIR$/datas/linprog/confusing_cars_density_epsilon1.4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datas/linprog/confusing_cars_density_epsilon1.5.txt" afterPath="$PROJECT_DIR$/datas/linprog/confusing_cars_density_epsilon1.5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datas/linprog/confusing_cars_density_epsilon1.6.txt" afterPath="$PROJECT_DIR$/datas/linprog/confusing_cars_density_epsilon1.6.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datas/linprog/confusing_cars_density_epsilon1.7.txt" afterPath="$PROJECT_DIR$/datas/linprog/confusing_cars_density_epsilon1.7.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datas/linprog/confusing_cars_density_epsilon1.8.txt" afterPath="$PROJECT_DIR$/datas/linprog/confusing_cars_density_epsilon1.8.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datas/linprog/confusing_cars_density_epsilon1.9.txt" afterPath="$PROJECT_DIR$/datas/linprog/confusing_cars_density_epsilon1.9.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datas/linprog/confusing_cars_density_epsilon3.0.txt" afterPath="$PROJECT_DIR$/datas/linprog/confusing_cars_density_epsilon3.0.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datas/linprog/linprog0.1.txt" afterPath="$PROJECT_DIR$/datas/linprog/linprog0.1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datas/linprog/linprog0.2.txt" afterPath="$PROJECT_DIR$/datas/linprog/linprog0.2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datas/linprog/linprog0.3.txt" afterPath="$PROJECT_DIR$/datas/linprog/linprog0.3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datas/linprog/linprog0.4.txt" afterPath="$PROJECT_DIR$/datas/linprog/linprog0.4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datas/linprog/linprog0.5.txt" afterPath="$PROJECT_DIR$/datas/linprog/linprog0.5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datas/linprog/linprog0.6.txt" afterPath="$PROJECT_DIR$/datas/linprog/linprog0.6.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datas/linprog/linprog0.7.txt" afterPath="$PROJECT_DIR$/datas/linprog/linprog0.7.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datas/linprog/linprog0.8.txt" afterPath="$PROJECT_DIR$/datas/linprog/linprog0.8.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datas/linprog/linprog0.9.txt" afterPath="$PROJECT_DIR$/datas/linprog/linprog0.9.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datas/linprog/linprog1.0.txt" afterPath="$PROJECT_DIR$/datas/linprog/linprog1.0.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datas/linprog/linprog1.1.txt" afterPath="$PROJECT_DIR$/datas/linprog/linprog1.1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datas/linprog/linprog1.2.txt" afterPath="$PROJECT_DIR$/datas/linprog/linprog1.2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datas/linprog/linprog1.3.txt" afterPath="$PROJECT_DIR$/datas/linprog/linprog1.3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datas/linprog/linprog1.4.txt" afterPath="$PROJECT_DIR$/datas/linprog/linprog1.4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datas/linprog/linprog1.5.txt" afterPath="$PROJECT_DIR$/datas/linprog/linprog1.5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datas/linprog/linprog1.6.txt" afterPath="$PROJECT_DIR$/datas/linprog/linprog1.6.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datas/linprog/linprog1.7.txt" afterPath="$PROJECT_DIR$/datas/linprog/linprog1.7.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datas/linprog/linprog1.8.txt" afterPath="$PROJECT_DIR$/datas/linprog/linprog1.8.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datas/linprog/linprog1.9.txt" afterPath="$PROJECT_DIR$/datas/linprog/linprog1.9.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datas/linprog/sort_edges.txt" afterPath="$PROJECT_DIR$/datas/linprog/sort_edges.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/draw_points.py" afterPath="$PROJECT_DIR$/draw_points.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/positionConfusing.py" afterPath="$PROJECT_DIR$/positionConfusing.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/positionConfusingByLaplace.py" afterPath="$PROJECT_DIR$/positionConfusingByLaplace.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/productMappingMatrix.py" afterPath="$PROJECT_DIR$/productMappingMatrix.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,17 +98,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/DeltaPlusShare$productMappingMatrix.coverage" NAME="productMappingMatrix Coverage Results" MODIFIED="1542420472602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DeltaPlusShare$positionConfusingByLaplace.coverage" NAME="positionConfusingByLaplace Coverage Results" MODIFIED="1542624589753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DeltaPlusShare$productMappingMatrix.coverage" NAME="productMappingMatrix Coverage Results" MODIFIED="1543393311564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DeltaPlusShare$positionConfusingByLaplace.coverage" NAME="positionConfusingByLaplace Coverage Results" MODIFIED="1543393665346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DeltaPlusShare$extractPosition.coverage" NAME="extractPosition Coverage Results" MODIFIED="1542337297958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DeltaPlusShare$MAE.coverage" NAME="MAE Coverage Results" MODIFIED="1542624647099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DeltaPlusShare$MAE.coverage" NAME="MAE Coverage Results" MODIFIED="1543393671801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/laplacePlusDeltaspanner$draw_points.coverage" NAME="draw_points Coverage Results" MODIFIED="1542272650147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/laplacePlusDeltaspanner$Unittests_in_test_py.coverage" NAME="Unittests in mytest.py Coverage Results" MODIFIED="1542201677378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/laplacePlusDeltaspanner$mytest.coverage" NAME="mytest Coverage Results" MODIFIED="1542265527924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/laplacePlusDeltaspanner$extractPosition.coverage" NAME="extractPosition Coverage Results" MODIFIED="1542272357599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/laplacePlusDeltaspanner$productMappingMatrix.coverage" NAME="productMappingMatrix Coverage Results" MODIFIED="1542272198971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DeltaPlusShare$positionConfusing.coverage" NAME="positionConfusing Coverage Results" MODIFIED="1542420997999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DeltaPlusShare$draw_points.coverage" NAME="draw_points Coverage Results" MODIFIED="1542421014286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DeltaPlusShare$draw_points.coverage" NAME="draw_points Coverage Results" MODIFIED="1542678701942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DeltaPlusShare$positionConfusing.coverage" NAME="positionConfusing Coverage Results" MODIFIED="1543393371415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
@@ -76,6 +118,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="draw_points.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/draw_points.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1485">
+              <caret line="45" column="55" lean-forward="false" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -104,8 +156,28 @@
       <file leaf-file-name="MAE.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MAE.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+            <state relative-caret-position="264">
+              <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="productMappingMatrix.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/productMappingMatrix.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="193" column="36" lean-forward="false" selection-start-line="193" selection-start-column="36" selection-end-line="193" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="positionConfusing.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/positionConfusing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1373">
+              <caret line="59" column="21" lean-forward="true" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -124,8 +196,8 @@
       <file leaf-file-name="positionConfusingByLaplace.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/positionConfusingByLaplace.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="739">
-              <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+            <state relative-caret-position="-317">
+              <caret line="48" column="51" lean-forward="false" selection-start-line="48" selection-start-column="51" selection-end-line="48" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -159,12 +231,12 @@
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/mytest.py" />
         <option value="$PROJECT_DIR$/extractPosition.py" />
-        <option value="$PROJECT_DIR$/draw_points.py" />
         <option value="$PROJECT_DIR$/productMappingMatrixBylaplace.py" />
+        <option value="$PROJECT_DIR$/draw_points.py" />
         <option value="$PROJECT_DIR$/productMappingMatrix.py" />
         <option value="$PROJECT_DIR$/positionConfusing.py" />
-        <option value="$PROJECT_DIR$/positionConfusingByLaplace.py" />
         <option value="$PROJECT_DIR$/MAE.py" />
+        <option value="$PROJECT_DIR$/positionConfusingByLaplace.py" />
       </list>
     </option>
   </component>
@@ -232,24 +304,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="datas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DeltaPlusShare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DeltaPlusShare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="datas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laplace" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -530,9 +584,9 @@
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.MAE" />
         <item index="1" class="java.lang.String" itemvalue="Python.positionConfusingByLaplace" />
-        <item index="2" class="java.lang.String" itemvalue="Python.draw_points" />
-        <item index="3" class="java.lang.String" itemvalue="Python.positionConfusing" />
-        <item index="4" class="java.lang.String" itemvalue="Python.productMappingMatrix" />
+        <item index="2" class="java.lang.String" itemvalue="Python.positionConfusing" />
+        <item index="3" class="java.lang.String" itemvalue="Python.productMappingMatrix" />
+        <item index="4" class="java.lang.String" itemvalue="Python.draw_points" />
       </list>
     </recent_temporary>
   </component>
@@ -567,11 +621,11 @@
     <frame x="-7" y="2" width="1932" height="1045" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25267094" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25801283" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32821077" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32821077" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -601,35 +655,13 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/datas/sort_edges.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="3175" lean-forward="false" selection-start-line="0" selection-start-column="3175" selection-end-line="0" selection-end-column="3175" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/linprog2.0.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/linprog0.1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/datas/sort_edges.txt" />
+    <entry file="file://$PROJECT_DIR$/datas/linprog2.0.txt" />
+    <entry file="file://$PROJECT_DIR$/datas/linprog0.1.txt" />
     <entry file="file://C:/Python27/Lib/site-packages/matplotlib/axes/_axes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="4278" column="0" lean-forward="false" selection-start-line="4278" selection-start-column="0" selection-end-line="4278" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -637,7 +669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="1854" column="0" lean-forward="false" selection-start-line="1854" selection-start-column="0" selection-end-line="1854" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -645,95 +676,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="3469" column="0" lean-forward="false" selection-start-line="3469" selection-start-column="0" selection-end-line="3469" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/datas/linprog0.5.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/confusing_cars_density_epsilon1.7.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/confusing_cars_density_epsilon1.6.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/confusing_cars_density_epsilon1.5.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/confusing_cars_density_epsilon1.4.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/confusing_cars_density_epsilon1.9.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/confusing_cars_density_epsilon2.0.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/confusing_cars_density_epsilon0.1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/datas/linprog0.5.txt" />
+    <entry file="file://$PROJECT_DIR$/datas/confusing_cars_density_epsilon1.7.txt" />
+    <entry file="file://$PROJECT_DIR$/datas/confusing_cars_density_epsilon1.6.txt" />
+    <entry file="file://$PROJECT_DIR$/datas/confusing_cars_density_epsilon1.5.txt" />
+    <entry file="file://$PROJECT_DIR$/datas/confusing_cars_density_epsilon1.4.txt" />
+    <entry file="file://$PROJECT_DIR$/datas/confusing_cars_density_epsilon1.9.txt" />
+    <entry file="file://$PROJECT_DIR$/datas/confusing_cars_density_epsilon2.0.txt" />
+    <entry file="file://$PROJECT_DIR$/datas/confusing_cars_density_epsilon0.1.txt" />
     <entry file="file://$PROJECT_DIR$/materials/points.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/datas/linprog4.0.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/datas/linprog4.0.txt" />
     <entry file="file://$PROJECT_DIR$/datas/linprog/linprog0.3.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -741,7 +706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -749,7 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -757,7 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -765,7 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -773,7 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -781,7 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -789,7 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -797,7 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -805,7 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -813,7 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -821,7 +776,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -829,7 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -837,7 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -845,7 +797,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -853,31 +804,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/datas/cars_MAE_file_inlaplace.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/cars_MAE_file_inlinprog.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/datas/cars_MAE_file_inlaplace.txt" />
+    <entry file="file://$PROJECT_DIR$/datas/cars_MAE_file_inlinprog.txt" />
     <entry file="file://$PROJECT_DIR$/datas/cars_MAE_file_in_laplace.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -885,15 +820,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
           <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/draw_points.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="45" column="37" lean-forward="false" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -901,23 +827,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
           <caret line="51" column="46" lean-forward="false" selection-start-line="51" selection-start-column="46" selection-end-line="51" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/productMappingMatrix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5180">
-          <caret line="191" column="35" lean-forward="false" selection-start-line="191" selection-start-column="35" selection-end-line="191" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/positionConfusing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="73" column="92" lean-forward="false" selection-start-line="65" selection-start-column="8" selection-end-line="73" selection-end-column="92" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -949,7 +858,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -957,7 +865,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -965,7 +872,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -989,22 +895,45 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/draw_points.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="45" column="55" lean-forward="false" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productMappingMatrix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="193" column="36" lean-forward="false" selection-start-line="193" selection-start-column="36" selection-end-line="193" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/positionConfusing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1373">
+          <caret line="59" column="21" lean-forward="true" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/positionConfusingByLaplace.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="739">
-          <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        <state relative-caret-position="-317">
+          <caret line="48" column="51" lean-forward="false" selection-start-line="48" selection-start-column="51" selection-end-line="48" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MAE.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        <state relative-caret-position="264">
+          <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
           <folding />
         </state>
       </provider>
