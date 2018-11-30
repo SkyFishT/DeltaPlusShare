@@ -2,8 +2,8 @@ import os,math
 def getMAE(method):
     area_width_segments = 5
     area_height_segments = 5
-    area_width_split = 5
-    area_height_split = 5
+    area_width_split = 3
+    area_height_split = 3
 
     cars_density_file = open(os.path.join(os.getcwd(), 'datas', 'cars_density.txt'), 'r')
     cars_density = eval(cars_density_file.read())
@@ -13,8 +13,8 @@ def getMAE(method):
     num_cars = len(cars)
     cars_file.close()
 
-    epsilon = [x * 0.1 for x in range(30, 31)]
-    cars_MAE_file = open(os.path.join(os.getcwd(), 'datas', 'cars_MAE_file_in_'+str(method)+'.txt'), 'w')
+    epsilon = [x * 0.1 for x in range(1, 41)]
+    cars_MAE_file = open(os.path.join(os.getcwd(), 'datas',method, 'cars_MAE_file_in_'+str(method)+'.txt'), 'w')
     points_num = 5*5*5*5
     for e in epsilon:
         AE=0
@@ -26,10 +26,10 @@ def getMAE(method):
                 for x in range(area_width_split):
                     for y in range(area_height_split):
                         AE += abs(cars_density[i][j][x][y] - confusing_cars[i][j][x][y])
-        cars_MAE_file.write('MAE_confusing_cars_density_epsilon'+str(e)+':'+str(AE)+'\n')
+        cars_MAE_file.write('MAE_confusing_cars_density_epsilon'+str(e)+':'+str(float(AE)/points_num/(num_cars/points_num))+'\n')
     cars_MAE_file.close()
 
 if __name__=='__main__':
-    methods=['laplace','linprog']
+    methods=['laplace','linprog','exponent']
     for method in methods:
         getMAE(method)

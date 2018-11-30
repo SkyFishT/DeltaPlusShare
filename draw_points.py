@@ -43,7 +43,7 @@ def draw_plot_cars(path):
         plt.scatter(car[0], car[1], 2,'#000000')
     plt.show()
 if __name__ == '__main__':
-    path1 = os.path.join(os.getcwd(), 'datas', 'linprog','confusing_cars_density_epsilon1.9.txt')
+    path1 = os.path.join(os.getcwd(), 'datas', 'exponent','confusing_cars_density_epsilon4.0.txt')
     #path2 = os.path.join(os.getcwd(), 'materials', 'cars.txt')
     draw_plot_points(path1)
     #draw_plot_cars(path2)

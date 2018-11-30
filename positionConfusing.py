@@ -31,7 +31,7 @@ def positionConfusing(method):
                         break
                 break
         return indexs
-    def mappingToBylinprog(position,matrix):
+    def mappingToByProbability(position,matrix):
         index = position[0]+position[1]*area_width_split
         mapping_array = matrix[index]
         probability = random.random()
@@ -56,7 +56,7 @@ def positionConfusing(method):
     cars_density_file = open(os.path.join(os.getcwd(), 'datas', 'cars_density.txt'), 'w')
     cars_density_file.write(str(cars_density))
     cars_density_file.close()
-    epsilon = [x * 0.1 for x in range(30, 31)]
+    epsilon = [x * 0.1 for x in range(1, 41)]
     for e in epsilon:
         matrix_file = open(os.path.join(os.getcwd(), 'datas', method,method + str(round(e,1)) + '.txt'), 'r')
         matrix = eval(matrix_file.read())
@@ -69,10 +69,10 @@ def positionConfusing(method):
                     for y in range(area_height_split):
                         count = cars_density[i][j][x][y]
                         for c in range(count):
-                            mapping_position = mappingToBylinprog([x,y],matrix)
+                            mapping_position = mappingToByProbability([x,y],matrix)
                             cars_density[i][j][x][y] -= 1
                             cars_density[i][j][mapping_position[0]][mapping_position[1]] +=1
-        confusing_cars_density_file = open(os.path.join(os.getcwd(), 'datas','linprog', 'confusing_cars_density_epsilon'+str(e)+'.txt'), 'w')
+        confusing_cars_density_file = open(os.path.join(os.getcwd(), 'datas',method, 'confusing_cars_density_epsilon'+str(e)+'.txt'), 'w')
         confusing_cars_density_file.write(str(cars_density))
         confusing_cars_density_file.close()
         cars_density_file.close()
@@ -109,4 +109,6 @@ def positionConfusing(method):
     # return travers_cars
 
 if __name__ == '__main__':
-    positionConfusing('linprog')
+    methods=['linprog','exponent']
+    for method in methods:
+        positionConfusing(method)
