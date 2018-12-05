@@ -119,7 +119,8 @@ def productMappingMatrix(width,height,width_segments,height_segments,epsilon,del
     #product mapping matrix
     numbers_of_various = num_of_points*num_of_points
     c = [0] * numbers_of_various
-    ratio = math.pow(math.e, epsilon / delta)
+    ratio = math.pow(math.e, epsilon / (delta))
+    # *segmentWidth*math.sqrt(2)
     for i in range(num_of_points):
         for j in range(num_of_points):
             c[i * num_of_points + j] = dist_of_points(position_set[i], position_set[j])
@@ -135,7 +136,7 @@ def productMappingMatrix(width,height,width_segments,height_segments,epsilon,del
                 for k in range(num_of_points):
                     tmp_a = [0] * numbers_of_various
                     tmp_a[i * num_of_points + k] = 1
-                    tmp_a[j * num_of_points + k] = -math.pow(ratio, dist_of_points(position_set[i], position_set[j]))
+                    tmp_a[j * num_of_points + k] = -math.pow(ratio,dist_of_points(position_set[i], position_set[j]))
                     a_ub.append(tmp_a)
                     b_ub = b_ub + [0]
     # product the a_eq and b_eq
@@ -191,4 +192,4 @@ def productMappingMatrix(width,height,width_segments,height_segments,epsilon,del
 if __name__ == '__main__':
     epsilon=[x*0.1 for x in range(1,41)]
     for i in epsilon:
-        productMappingMatrix(5,5,5,5,i,1.5)
+        productMappingMatrix(5,5,5,5,i,1.1)

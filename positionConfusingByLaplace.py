@@ -23,8 +23,8 @@ def positionConfusingByLaplace(epsilon):
     o_y = 39.8
     map_width = 0.25
     map_height = 0.25
-    area_width_segments = 5
-    area_height_segments = 5
+    area_width_segments = 10
+    area_height_segments = 10
     area_width_split = 5
     area_height_split = 5
     area_width = map_width / area_width_segments
@@ -46,13 +46,13 @@ def positionConfusingByLaplace(epsilon):
     cars = eval(cars_file.read())
     cars_file.close()
     for car in cars:
-        tmp_car = mappingConfusingPositionByLaplace(car,epsilon,math.sqrt(2)*area_width)
+        tmp_car = mappingConfusingPositionByLaplace2(car,epsilon,split_width)
         if 116.25<tmp_car[0]<116.5 and 39.8<tmp_car[1]<40.5:
             confusing_cars.append(tmp_car)
     confusing_cars_density = []
-    for i in range(5):
+    for i in range(area_width_segments):
         confusing_cars_density.append([])
-        for j in range(5):
+        for j in range(area_height_segments):
             tmp_cars_density = [[0] * area_width_split for k in range(area_height_split)]
             confusing_cars_density[i].append(tmp_cars_density)
     for car in confusing_cars:

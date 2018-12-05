@@ -4,8 +4,8 @@ def positionConfusing(method):
     o_y = 39.8
     map_width = 0.25
     map_height = 0.25
-    area_width_segments = 5
-    area_height_segments = 5
+    area_width_segments = 10
+    area_height_segments = 10
     area_width_split = 5
     area_height_split = 5
     area_width = map_width / area_width_segments
@@ -45,9 +45,9 @@ def positionConfusing(method):
     cars_file = open(os.path.join(os.getcwd(), 'materials', 'cars.txt'), 'r')
     cars = eval(cars_file.read())
     cars_density= []
-    for i in range(5):
+    for i in range(area_width_segments):
         cars_density.append([])
-        for j in range(5):
+        for j in range(area_height_segments):
             tmp_cars_density = [[0]*area_width_split for k in range(area_height_split)]
             cars_density[i].append(tmp_cars_density)
     for car in cars:
@@ -63,8 +63,8 @@ def positionConfusing(method):
         matrix_file.close()
         cars_density_file = open(os.path.join(os.getcwd(), 'datas', 'cars_density.txt'), 'r')
         cars_density = eval(cars_density_file.read())
-        for i in range(5):
-            for j in range(5):
+        for i in range(area_width_segments):
+            for j in range(area_height_segments):
                 for x in range(area_width_split):
                     for y in range(area_height_split):
                         count = cars_density[i][j][x][y]

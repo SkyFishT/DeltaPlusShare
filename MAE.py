@@ -1,9 +1,9 @@
 import os,math
 def getMAE(method):
-    area_width_segments = 5
-    area_height_segments = 5
-    area_width_split = 3
-    area_height_split = 3
+    area_width_segments = 10
+    area_height_segments = 10
+    area_width_split = 5
+    area_height_split = 5
 
     cars_density_file = open(os.path.join(os.getcwd(), 'datas', 'cars_density.txt'), 'r')
     cars_density = eval(cars_density_file.read())
