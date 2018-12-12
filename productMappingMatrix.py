@@ -169,7 +169,7 @@ def productMappingMatrix(width,height,width_segments,height_segments,epsilon,del
         for i in range(num_of_points):
             result[result_index, i] = linprog_result[lingpro_index * num_of_points + i]
     linprog_result = res.x.tolist()
-    print linprog_result
+    print 'finished matrix: delta:'+str(delta)+',epsilon:'+str(epsilon)
     linprog_index = -1
     for i in position_set:
         linprog_index += 1
@@ -189,7 +189,7 @@ def productMappingMatrix(width,height,width_segments,height_segments,epsilon,del
         result_buffer.append(result_buffer_tmp)
     linpro_file.write(str(result_buffer))
     linpro_file.close()
-    time_file.write('delta:' + str(delta) +'epsilon'+ str(epsilon)+',time:' + str(time.time()-curtime))
+    time_file.write('delta:' + str(delta) +',epsilon:'+ str(epsilon)+',time:' + str(time.time()-curtime))
 
 if __name__ == '__main__':
     epsilon=[x*0.1 for x in range(1,41)]
