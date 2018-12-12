@@ -1,5 +1,5 @@
 import os,math
-def getMAE(method):
+def getMAE(method,delta):
     area_width_segments = 10
     area_height_segments = 10
     area_width_split = 5
@@ -14,11 +14,11 @@ def getMAE(method):
     cars_file.close()
 
     epsilon = [x * 0.1 for x in range(1, 41)]
-    cars_MAE_file = open(os.path.join(os.getcwd(), 'datas',method, 'cars_MAE_file_in_'+str(method)+'.txt'), 'w')
+    cars_MAE_file = open(os.path.join(os.getcwd(), 'datas',method, 'cars_MAE_file_in_'+str(method)+str(delta)+'.txt'), 'w')
     points_num = 5*5*5*5
     for e in epsilon:
         AE=0
-        confusing_cars_file = open(os.path.join(os.getcwd(), 'datas', method,'confusing_cars_density_epsilon'+str(e)+'.txt'), 'r')
+        confusing_cars_file = open(os.path.join(os.getcwd(), 'datas', method,'confusing_cars_density_epsilon'+str(e)+str(delta)+'.txt'), 'r')
         confusing_cars = eval(confusing_cars_file.read())
         confusing_cars_file.close()
         for i in range(area_width_segments):
@@ -31,5 +31,7 @@ def getMAE(method):
 
 if __name__=='__main__':
     methods=['laplace','linprog','exponent']
-    for method in methods:
-        getMAE(method)
+    deltas = [1.1, 1.2, 1.3, 1.4, 1.5]
+    for delta in deltas:
+        getMAE('linprog',delta)
+    #getMAE('linprog')

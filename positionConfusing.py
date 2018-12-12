@@ -1,5 +1,5 @@
 import os,math,random,numpy as np
-def positionConfusing(method):
+def positionConfusing(method,delta):
     o_x = 116.25
     o_y = 39.8
     map_width = 0.25
@@ -58,7 +58,7 @@ def positionConfusing(method):
     cars_density_file.close()
     epsilon = [x * 0.1 for x in range(1, 41)]
     for e in epsilon:
-        matrix_file = open(os.path.join(os.getcwd(), 'datas', method,method + str(round(e,1)) + '.txt'), 'r')
+        matrix_file = open(os.path.join(os.getcwd(), 'datas', method,method + str(round(e,1))+str(delta) + '.txt'), 'r')
         matrix = eval(matrix_file.read())
         matrix_file.close()
         cars_density_file = open(os.path.join(os.getcwd(), 'datas', 'cars_density.txt'), 'r')
@@ -72,7 +72,7 @@ def positionConfusing(method):
                             mapping_position = mappingToByProbability([x,y],matrix)
                             cars_density[i][j][x][y] -= 1
                             cars_density[i][j][mapping_position[0]][mapping_position[1]] +=1
-        confusing_cars_density_file = open(os.path.join(os.getcwd(), 'datas',method, 'confusing_cars_density_epsilon'+str(e)+'.txt'), 'w')
+        confusing_cars_density_file = open(os.path.join(os.getcwd(), 'datas',method, 'confusing_cars_density_epsilon'+str(e)+str(delta)+'.txt'), 'w')
         confusing_cars_density_file.write(str(cars_density))
         confusing_cars_density_file.close()
         cars_density_file.close()
@@ -109,6 +109,7 @@ def positionConfusing(method):
     # return travers_cars
 
 if __name__ == '__main__':
-    methods=['linprog','exponent']
-    for method in methods:
-        positionConfusing(method)
+    #positionConfusing('exponent')
+    deltas=[1.1,1.2,1.3,1.4,1.5]
+    for delta in deltas:
+        positionConfusing('linprog',delta)

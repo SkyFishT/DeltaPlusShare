@@ -1,4 +1,4 @@
-import os,math,numpy as np
+import os,math,time,numpy as np
 from scipy.optimize import linprog
 
 #width,height denotes the map's width and height
@@ -78,7 +78,7 @@ def product_sort_edges(points):
     sort_edges_file.close()
     return sorted_edges
 
-def productMappingMatrix(width,height,width_segments,height_segments,epsilon,delta):
+def productMappingMatrix(width,height,width_segments,height_segments,epsilon,delta,time_file):
     #product points
     segmentWidth = round(float(width)/width_segments,2) #the length of each split segments in x direction
     segmentHeight = round(float(height)/height_segments,2) #the length of each split segments in y direction
@@ -117,6 +117,7 @@ def productMappingMatrix(width,height,width_segments,height_segments,epsilon,del
             minpath(points_shortest_array, j, graph)
     np.save(os.path.join(os.getcwd(), 'datas', 'linprog','delta_spanner.npy'), delta_spanner_edges)
     #product mapping matrix
+    curtime = time.time()
     numbers_of_various = num_of_points*num_of_points
     c = [0] * numbers_of_various
     ratio = math.pow(math.e, epsilon / (delta))
@@ -163,7 +164,7 @@ def productMappingMatrix(width,height,width_segments,height_segments,epsilon,del
             np_a_eq[i, j] = a_eq[i][j]
     res = linprog(c, np_a_ub, b_ub, np_a_eq, b_eq, bounds=tuple(r),method='interior-point',options={'maxiter':500})
     result = np.zeros((num_of_points, num_of_points))
-    linpro_file = open(os.path.join(os.getcwd(), 'datas', 'linprog','linprog' + str(epsilon) + '.txt'), 'w')
+    linpro_file = open(os.path.join(os.getcwd(), 'datas', 'linprog','linprog' + str(epsilon)+str(delta) + '.txt'), 'w')
     def fuzhi2result(result, result_index, linprog_result, lingpro_index):
         for i in range(num_of_points):
             result[result_index, i] = linprog_result[lingpro_index * num_of_points + i]
@@ -188,8 +189,13 @@ def productMappingMatrix(width,height,width_segments,height_segments,epsilon,del
         result_buffer.append(result_buffer_tmp)
     linpro_file.write(str(result_buffer))
     linpro_file.close()
+    time_file.write('delta:' + str(delta) +'epsilon'+ str(epsilon)+',time:' + str(time.time()-curtime))
 
 if __name__ == '__main__':
     epsilon=[x*0.1 for x in range(1,41)]
-    for i in epsilon:
-        productMappingMatrix(5,5,5,5,i,1.1)
+    deltas=[1.1,1.2,1.3,1.4,1.5]
+    time_file = open(os.path.join(os.getcwd(), 'datas', 'linprog', 'time.txt'), 'w')
+    for i in deltas:
+        for j in epsilon:
+            productMappingMatrix(5,5,5,5,j,i,time_file)
+    time_file.close()
