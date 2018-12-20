@@ -193,7 +193,7 @@ def productMappingMatrix(width,height,width_segments,height_segments,epsilon,del
 
 if __name__ == '__main__':
     epsilon=[x*0.1 for x in range(1,41)]
-    deltas=[1.1,1.2,1.3,1.4,1.5]
+    deltas=[1.0]
     time_file = open(os.path.join(os.getcwd(), 'datas', 'linprog', 'time.txt'), 'w')
     for i in deltas:
         for j in epsilon:
