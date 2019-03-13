@@ -56,7 +56,7 @@ def positionConfusing(method,delta):
     cars_density_file = open(os.path.join(os.getcwd(), 'datas', 'cars_density.txt'), 'w')
     cars_density_file.write(str(cars_density))
     cars_density_file.close()
-    epsilon = [x * 0.1 for x in range(1, 41)]
+    epsilon = [x * 0.1 for x in range(35, 36)]
     for e in epsilon:
         matrix_file = open(os.path.join(os.getcwd(), 'datas', method,method + str(round(e,1))+str(delta) + '.txt'), 'r')
         matrix = eval(matrix_file.read())
@@ -110,6 +110,6 @@ def positionConfusing(method,delta):
 
 if __name__ == '__main__':
     #positionConfusing('exponent')
-    deltas=[1.1,1.2,1.3,1.4,1.5]
+    deltas=[1.6,1.7,1.8,1.9,2.0]
     for delta in deltas:
         positionConfusing('linprog',delta)

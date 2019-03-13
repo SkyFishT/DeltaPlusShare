@@ -13,7 +13,7 @@ def getMAE(method,delta):
     num_cars = len(cars)
     cars_file.close()
 
-    epsilon = [x * 0.1 for x in range(1, 41)]
+    epsilon = [x * 0.1 for x in range(35, 36)]
     cars_MAE_file = open(os.path.join(os.getcwd(), 'datas',method, 'cars_MAE_file_in_'+str(method)+str(delta)+'.txt'), 'w')
     points_num = 5*5*5*5
     for e in epsilon:
@@ -31,7 +31,7 @@ def getMAE(method,delta):
 
 if __name__=='__main__':
     methods=['laplace','linprog','exponent']
-    deltas = [1.1, 1.2, 1.3, 1.4, 1.5]
+    deltas = [1.6,1.7,1.8,1.9,2.0]
     for delta in deltas:
         getMAE('linprog',delta)
     #getMAE('linprog')
